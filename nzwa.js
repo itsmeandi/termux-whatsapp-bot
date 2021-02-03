@@ -56,10 +56,10 @@ const _registered = JSON.parse(fs.readFileSync('./database/json/registered.json'
 
 const option = JSON.parse(fs.readFileSync('./options/option.json'))
 const {
-    botName,
-    ownerName,
-    BarBarKey,
-    ownerNumbers
+    "botName": "BOTSherlock",
+    "ownerName": "SherlockHolmes",
+    "BarBarKey": "A4wJwkoSak82hj82NWo92",
+    "ownerNumbers": "6282292119677@s.whatsapp.net"
 } = option
 
 // Load Menu File
